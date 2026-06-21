@@ -6,7 +6,7 @@
 <title>XAU/USD AI Pipeline</title>
 <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.development.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.development.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reactflow@11.11.4/dist/umd/reactflow.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reactflow@11.11.4/dist/umd/index.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reactflow@11.11.4/dist/style.css"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -22,7 +22,7 @@ html,body,#root{width:100%;height:100%;overflow:hidden;background:#030810}
 window.addEventListener('load', function() {
 
 var e = React.createElement;
-var RFLib = window.ReactFlowLib;
+var RFLib = window.ReactFlow;
 
 if (!RFLib) {
   document.getElementById('root').innerHTML =
